@@ -1,0 +1,46 @@
+<html>
+<style>
+@font-face {
+    font-family: font;
+    src: url("Comic Book.otf");
+}
+h1
+{
+    font-size: 160;
+    font-family:font;
+    animation: intrare-de-jos 2s,muie 4s infinite;
+}
+@keyframes muie{
+    0%{
+        color:black;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: lightblue;
+    }
+    75%{
+        color: burlywood;
+    }
+    100%{
+        color: brown;
+    }
+}
+@keyframes intrare-de-jos{
+	0%{
+		opacity:0;
+		transform:translatey(250px) scale(.8);
+	}
+	100%{
+		opacity:1;
+		transform:translatey(0) scale(1);
+	}	
+}
+</style>
+<div style="display: flex;justify-content: center;align-items: center;height: 100%;width: 100%;">
+    <h1>
+        Muie lu' Martinel
+    </h1>
+</div>
+</html>
